@@ -1,7 +1,30 @@
-/* .hello {
-  color: blue;
+html{
+  box-sizing: border-box;
 }
 
-body {
-  background-color: bisque;
-} */
+*,
+*:before,
+*:after{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.sections-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input-section,
+.leader-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+}

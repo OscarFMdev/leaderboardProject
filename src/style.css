@@ -1,10 +1,10 @@
-html{
+html {
   box-sizing: border-box;
 }
 
 *,
-*:before,
-*:after{
+*::before,
+*::after {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
@@ -24,6 +24,7 @@ ul {
   justify-content: space-evenly;
   margin-top: 50px;
 }
+
 /* Leaderboard */
 .leaders {
   display: flex;
@@ -31,18 +32,24 @@ ul {
   align-items: center;
 }
 
+.leaders-container {
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
 .leader-0,
 .leader-1 {
   width: 30rem;
   display: flex;
   font-size: 20px;
+  align-items: center;
 }
 
 .leader-0 {
   background-color: lightgray;
 }
 
-/*Input section*/
+/* Input section */
 .input-section,
 .leader-form {
   display: flex;
@@ -63,6 +70,7 @@ button {
   border: 1px solid black;
   padding: 1px 5px;
   box-shadow: 2px 5px;
+  cursor: pointer;
 }
 
 .leaders-heading,

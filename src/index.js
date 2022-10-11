@@ -1,6 +1,6 @@
 import './style.css';
 
-import { sayHi } from "./functions";
+import { sayHi } from "./modules/functions";
 
 sayHi();
 

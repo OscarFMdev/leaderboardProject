@@ -1,15 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# leaderboardProject
 
-> Description the project.
-
+In this project I'll use Asynchronous Javascript to call an API and set the leaderboard of the best players. The main goals of this project are:
+- Use callbacks and promises.
+- Learn how to use proper ES6 syntax.
+- Use ES6 modules to write modular JavaScript.
+- Use webpack to bundle JavaScript.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript
+- API
+- HTML and CSS
 
 ## Live Demo
 
@@ -36,17 +39,12 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Oacar Fernández Muñoz**
 
 - GitHub: [@OscarFMdev](https://github.com/OscarFMdev)
 - Twitter: [@OscarFMdev](https://twitter.com/OscarFMdev)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/OscarFMdev)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -60,9 +58,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+I want ot thank the [leaderboard API service](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3) for helping me develop this project by the use of the API.
 
 ## 📝 License
 

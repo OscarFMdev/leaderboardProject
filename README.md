@@ -24,16 +24,21 @@ In this project I'll use Asynchronous Javascript to call an API and set the lead
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
+For this project you must have [node.js](https://nodejs.org/en/) installed.
 ### Setup
-
+Run in the directory where you want to clone the repo:
+```sh
+git clone git@github.com:OscarFMdev/leaderboardProject.git
+```
 ### Install
-
+Yo should install the node modules by running:
+```sh
+npm install
+```
 ### Usage
-
-### Run tests
-
+This project communicates with an API to show the Leaderboard, the user (you) can put the name of the leader and the score in the input.
 ### Deployment
+After cloning the repository you must use npm start to see live version.
 
 
 

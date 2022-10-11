@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# leaderboardProject
+# Leaderboard Project
 
 In this project I'll use Asynchronous Javascript to call an API and set the leaderboard of the best players. The main goals of this project are:
 - Use callbacks and promises.

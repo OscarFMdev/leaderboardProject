@@ -1,17 +1,22 @@
-import display from './modules/display';
-import Leader from './modules/leader';
+import getLeadersData from './modules/getData';
+import newLeader from './modules/newLeader';
 import './style.css';
-
+/* Selectors */
 const leaderNameInput = document.querySelector('.leader-name');
 const leaderScoreInput = document.querySelector('.leader-score');
 const leaderForm = document.querySelector('.leader-form');
-const leadersArray = [{ leaderName: 'Foo', leaderScore: 4 }, { leaderName: 'Bar', leaderScore: 3 }];
+const refreshBtn = document.querySelector('.refresh');
+/* Array */
 
-leaderForm.addEventListener('submit', () => {
-  const leader = new Leader(leaderNameInput.value, leaderScoreInput.value);
+refreshBtn.addEventListener('click', () => {
+  getLeadersData();
+});
+
+leaderForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  await newLeader(leaderNameInput.value, parseInt(leaderScoreInput.value, 10));
   leaderNameInput.value = '';
   leaderScoreInput.value = '';
-  leadersArray.push(leader);
-  display(leadersArray);
 });
-display(leadersArray);
+
+getLeadersData();

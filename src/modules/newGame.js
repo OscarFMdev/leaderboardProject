@@ -12,5 +12,3 @@ const newGame = () => {
     .then((json) => console.log(json));
 };
 export default newGame;
-// Object { result: "Game with ID: OZEgFFaKBSjCtkj2r5Ih added." }
-// result: "Game with ID: OZEgFFaKBSjCtkj2r5Ih added."

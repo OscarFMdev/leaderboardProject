@@ -9,6 +9,6 @@ const newGame = () => {
     },
   })
     .then((response) => response.json())
-    .then((json) => console.log(json));
+    .then((json) => console.log(json)); // To check the response from the request
 };
 export default newGame;

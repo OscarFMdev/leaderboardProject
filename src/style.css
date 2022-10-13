@@ -29,10 +29,20 @@ ul {
   font-size: 40px;
 }
 
+#quote,
+#author {
+  font-style: italic;
+}
+
 #quote {
   text-align: center;
   font-size: 30px;
-  color: #a88c11;
+  color: black;
+}
+
+#author {
+  font-size: 23px;
+  text-align: center;
 }
 
 .sections-container {
@@ -72,8 +82,7 @@ ul {
 
 /* Input section */
 .input-section,
-.leader-form,
-.game-form {
+.leader-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,8 +91,7 @@ ul {
   align-self: center;
 }
 
-.leader-form input,
-.game-form input {
+.leader-form input {
   color: black;
   width: 20rem;
   height: 2rem;

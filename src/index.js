@@ -1,5 +1,6 @@
 import getLeadersData from './modules/getData';
 import newLeader from './modules/newLeader';
+import quoteGenerator from './modules/quoteGenerator';
 import './style.css';
 /* Selectors */
 const leaderNameInput = document.querySelector('.leader-name');
@@ -18,5 +19,5 @@ leaderForm.addEventListener('submit', async (e) => {
   leaderNameInput.value = '';
   leaderScoreInput.value = '';
 });
-
+quoteGenerator();
 getLeadersData();

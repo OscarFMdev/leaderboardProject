@@ -14,8 +14,7 @@ refreshBtn.addEventListener('click', () => {
 
 leaderForm.addEventListener('submit', async (e) => {
   e.preventDefault();
-  await newLeader(leaderNameInput, parseInt(leaderScoreInput.value, 10));
-  newLeader(leaderNameInput, leaderScoreInput);
+  await newLeader(leaderNameInput.value, parseInt(leaderScoreInput.value, 10));
   leaderNameInput.value = '';
   leaderScoreInput.value = '';
 });

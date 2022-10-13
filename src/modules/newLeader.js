@@ -1,4 +1,4 @@
-const newLeader = async (gameId = 'OZEgFFaKBSjCtkj2r5Ih', user = '', score = 0) => {
+const newLeader = async (user = '', score = 0, gameId = '0UlnJitfqGQD5uy8eJ6a') => {
   const leader = {
     user,
     score,
@@ -10,7 +10,9 @@ const newLeader = async (gameId = 'OZEgFFaKBSjCtkj2r5Ih', user = '', score = 0) 
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
     },
-  });
+  })
+    .then((response) => response.json())
+    .then((data) => data.result);
 };
 
 export default newLeader;

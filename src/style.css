@@ -10,12 +10,29 @@ html {
   padding: 0;
 }
 
+body {
+  background-color: lightseagreen;
+}
+
+* {
+  color: white;
+}
+
 ul {
   list-style: none;
 }
 
 .main-heading {
   margin: 30px;
+  text-align: center;
+  color: #7232a8;
+  font-size: 40px;
+}
+
+#quote {
+  text-align: center;
+  font-size: 30px;
+  color: #a88c11;
 }
 
 .sections-container {
@@ -33,43 +50,53 @@ ul {
 }
 
 .leaders-container {
-  border: 2px solid black;
   margin-top: 10px;
 }
 
-.leader-0,
-.leader-1 {
+.leader {
   width: 30rem;
   display: flex;
   font-size: 20px;
   align-items: center;
+  border-radius: 5px;
+  color: white;
 }
 
-.leader-0 {
-  background-color: lightgray;
+.leader:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.leader:nth-child(even) {
+  background-color: #e15873;
 }
 
 /* Input section */
 .input-section,
-.leader-form {
+.leader-form,
+.game-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   row-gap: 10px;
+  align-self: center;
 }
 
-.leader-form input {
+.leader-form input,
+.game-form input {
+  color: black;
   width: 20rem;
   height: 2rem;
 }
 
 button {
   align-self: flex-end;
-  background-color: white;
+  color: white;
+  background-color: #a83297;
   border: 1px solid black;
-  padding: 1px 5px;
-  box-shadow: 2px 5px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  border-style: none;
   cursor: pointer;
 }
 

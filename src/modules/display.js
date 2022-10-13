@@ -3,8 +3,8 @@ const display = (arr) => {
   leadersContainer.innerHTML = '';
   for (let i = 0; i < 10; i += 1) {
     const newLI = document.createElement('li');
-    newLI.innerHTML = `${arr[i].user}: ${arr[i].score}`;
-    newLI.classList = `leader-${i % 2}`;
+    newLI.innerHTML = `${i + 1}. ${arr[i].user}: ${arr[i].score}`;
+    newLI.classList = 'leader';
     leadersContainer.appendChild(newLI);
   }
 };

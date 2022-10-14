@@ -16,7 +16,7 @@ In this project I'll use Asynchronous Javascript to call an API and set the lead
 
 ## Live Demo
 
- Not yet available, [we are working on it](https://giphy.com/gifs/reactionseditor-cat-typing-ule4vhcY1xEKQ)
+[Live Version](https://oscarfmdev.github.io/leaderboardProject/build/)
 
 
 ## Getting Started

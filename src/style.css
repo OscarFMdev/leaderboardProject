@@ -68,11 +68,16 @@ ul {
 
 .leader {
   width: 30rem;
-  display: flex;
+  display: table;
   font-size: 20px;
   align-items: center;
   border-radius: 5px;
   color: white;
+}
+
+span {
+  display: table-cell;
+  width: 5px;
 }
 
 .leader:nth-child(odd) {

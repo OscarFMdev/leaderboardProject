@@ -16,6 +16,7 @@ body {
 
 * {
   font-family: 'Fuzzy Bubbles', cursive;
+  font-weight: 400;
   color: white;
 }
 
@@ -28,6 +29,7 @@ ul {
   text-align: center;
   color: #7232a8;
   font-size: 40px;
+  font-weight: bolder;
 }
 
 #quote,
@@ -120,10 +122,27 @@ button {
   }
 
   .leader {
-    width: 20rem;
+    width: 90vw;
   }
 
   .input-section {
     margin-bottom: 100px;
+    margin-top: 40px;
+  }
+
+  .leader-form input {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  li {
+    zoom: 0.7;
+    -moz-transform: scale(0.7);
+    -moz-transform-origin: 0 0;
   }
 }
